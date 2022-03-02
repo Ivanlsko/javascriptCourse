@@ -6,4 +6,4 @@ let continent = "Europe";
 let population = 5500000;
 console.log(country + " " + continent + " " + population); */
 
-//////////////////
+///////////
