@@ -15,3 +15,11 @@ const isIsland = false;
 const language = "Slovak";
 
 console.log(typeof isIsland + " " + population + " " + country + " " + language);
+
+//<--------------------LECTURE: Strings and Template Literals---------------------- >//
+
+/* 1. Recreatethe'description'variablefromthelastassignment,thistime using the template literal syntax
+ */
+
+const description = `${country} is a part of ${continent} and is habitated by ${population} people`;
+console.log(description);
