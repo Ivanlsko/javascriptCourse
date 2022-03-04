@@ -1,13 +1,13 @@
 //<------------------------------ Coding Challenge #1 ------------------------------ >//
 
-let marksMass = 78;
-let marksHeight = 1.69;
-let marksBMI = marksMass / marksHeight ** 2;
+const marksMass = 78;
+const marksHeight = 1.69;
+const marksBMI = marksMass / marksHeight ** 2;
 console.log(marksBMI);
 
-let johnsMass = 92;
-let johnsHeight = 1.95;
-let johnsBMI = johnsMass / johnsHeight ** 2;
+const johnsMass = 92;
+const johnsHeight = 1.95;
+const johnsBMI = johnsMass / johnsHeight ** 2;
 console.log(johnsBMI);
 
 //There is no need of using if statements
