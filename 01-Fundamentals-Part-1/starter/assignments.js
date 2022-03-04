@@ -11,15 +11,25 @@ console.log(country + " " + continent + " " + population);
 /* 1. Declareavariablecalled'isIsland'andsetitsvalueaccordingtoyour country. The variable should hold a Boolean value. Also declare a variable 'language', but don't assign it any value yet
 2. Logthetypesof'isIsland','population','country'and'language' to the console */
 
-const isIsland = false;
+/* const isIsland = false;
 const language = "Slovak";
 
-console.log(typeof isIsland + " " + population + " " + country + " " + language);
+console.log(typeof isIsland + " " + population + " " + country + " " + language); */
 
 //<--------------------LECTURE: Strings and Template Literals---------------------- >//
 
 /* 1. Recreatethe'description'variablefromthelastassignment,thistime using the template literal syntax
  */
 
-const description = `${country} is a part of ${continent} and is habitated by ${population} people`;
-console.log(description);
+/* const description = `${country} is a part of ${continent} and is habitated by ${population} people`;
+console.log(description); */
+
+//<--------------------LECTURE: Taking Decisions: if / else Statements---------------------- >//
+
+let difference;
+if (population > 33000000) {
+  console.log(`${country}'s population is above average`);
+} else {
+  difference = 33000000 - population;
+  console.log(`${country}'s population is ${difference} below world's average`);
+}
