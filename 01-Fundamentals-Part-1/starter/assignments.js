@@ -33,3 +33,16 @@ if (population > 33000000) {
   difference = 33000000 - population;
   console.log(`${country}'s population is ${difference} below world's average`);
 }
+
+//<--------------------LECTURE: Type Conversion and Coercion---------------------- >//
+
+/* 1. Predicttheresultofthese5operationswithoutexecutingthem:
+     '9' - '5'; // 4 as a number
+     '19' - '13' + '17'; // "617" as a string
+     '19' - '13' + 17; // 23 as a number
+     '123' < 57; // false
+     5 + 6 + '4' + 9 - 4 - 2; // 1143 as a number
+2. Executetheoperationstocheckifyouwereright */
+
+/* console.log("9" - "5", "19" - "13" + "17", "19" - "13" + 17, "123" < 57, 5 + 6 + "4" + 9 - 4 - 2);
+ */
