@@ -1,10 +1,11 @@
 /* 1. Declarevariablescalled'country','continent'and'population'and assign their values according to your own country (population in millions)
 2. Logtheirvaluestotheconsole */
 
-const country = "Slovakia";
+/* const country = "Slovakia";
 const continent = "Europe";
 let population = 5500000;
-console.log(country + " " + continent + " " + population);
+const language = "Slovak";
+console.log(country + " " + continent + " " + population); */
 
 ///////////
 
@@ -26,13 +27,13 @@ console.log(description); */
 
 //<--------------------LECTURE: Taking Decisions: if / else Statements---------------------- >//
 
-let difference;
+/* let difference;
 if (population > 33000000) {
   console.log(`${country}'s population is above average`);
 } else {
   difference = 33000000 - population;
   console.log(`${country}'s population is ${difference} below world's average`);
-}
+} */
 
 //<--------------------LECTURE: Type Conversion and Coercion---------------------- >//
 
@@ -53,3 +54,18 @@ if (population > 33000000) {
 if (numNeighbours === 1) console.log("Only 1 border");
 else if (numNeighbours > 1) console.log("There is more than 1 border");
 else console.log("No borders"); */
+
+//<--------------------LECTURE: Logical Operators---------------------- >//
+
+/* const country = "Canada";
+const continent = "America";
+let population = 5500000;
+const language = "English";
+const isIsland = false;
+
+if (language === "English" && population < 50000000 && isIsland === false) {
+  console.log(`You should live in ${country}`);
+} else {
+  console.log(`You shouldn't live in ${country}`);
+}
+ */
