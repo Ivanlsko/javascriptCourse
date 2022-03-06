@@ -69,3 +69,37 @@ if (language === "English" && population < 50000000 && isIsland === false) {
   console.log(`You shouldn't live in ${country}`);
 }
  */
+
+//<--------------------LECTURE: The switch Statement---------------------- >//
+
+/* const day = "sunday";
+
+if (day === "monday") {
+  console.log("It's monday!");
+} else if (day === "tuesday") {
+  console.log("It's tuesday");
+} else if (day === "wednesday" || day === "thursday") {
+  console.log("Middle of the week! Friday incoming");
+} else if (day === "friday") {
+  console.log("It's friiidaaay niight");
+} else if (day === "saturday" || day === "sunday") {
+  console.log("Let's enjoy the weekend");
+} else {
+  console.log("The value is invalid");
+}
+
+const language = "Chinese";
+
+switch (language) {
+  case "Chinese":
+    console.log("MOST number of native speakers");
+    break;
+  case "Spanish":
+    console.log("2nd place in number of native speakers");
+    break;
+  case "English":
+    console.log("3nd place in number of native speakers");
+    break;
+  default:
+    console.log("Awesome language!");
+} */
