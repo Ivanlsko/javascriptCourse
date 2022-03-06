@@ -24,7 +24,7 @@ console.log(markHigherBMI); */
 
 //<------------------------------ Coding Challenge #3 ------------------------------ >//
 
-const koalasFirstScore = 109;
+/* const koalasFirstScore = 109;
 const koalasSecondScore = 95;
 const koalasThirdScore = 123;
 const koalasAverage = (koalasFirstScore + koalasSecondScore + koalasThirdScore) / 3;
@@ -42,4 +42,13 @@ if (koalasAverage > dolphinsAverage && koalasAverage >= 100) {
   console.log("Team Dolphins Wins");
 } else {
   console.log("There is no winner of this game. The requirement of minimium 100 points wasn't fulfilled");
-}
+} */
+
+//<------------------------------ Coding Challenge #4 ------------------------------ >//
+
+/* const bill = 430; // 40 430
+const tip = bill >= 50 && bill <= 300 ? "15" : "20";
+
+console.log(`Your bill is ${bill}€, therefore, you should tip ${tip}%`);
+console.log(`To sum it up, you end up paying ${bill + (bill / 100) * tip}€`);
+ */
