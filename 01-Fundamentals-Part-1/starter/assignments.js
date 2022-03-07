@@ -103,3 +103,13 @@ switch (language) {
   default:
     console.log("Awesome language!");
 } */
+
+//<--------------------LECTURE: Functions---------------------- >//
+
+function describeCountry(country, population, capitalCity) {
+  console.log(`${country} has ${population} people and its capital city is ${capitalCity}`);
+}
+
+describeCountry("Finland", 6000000, "Helsinky");
+describeCountry("Slovakia", 5500000, "Bratislava");
+describeCountry("Usa", 300000000, "Washington");
