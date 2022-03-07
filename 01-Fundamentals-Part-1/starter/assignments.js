@@ -106,10 +106,27 @@ switch (language) {
 
 //<--------------------LECTURE: Functions---------------------- >//
 
-function describeCountry(country, population, capitalCity) {
+/* function describeCountry(country, population, capitalCity) {
   console.log(`${country} has ${population} people and its capital city is ${capitalCity}`);
 }
 
 describeCountry("Finland", 6000000, "Helsinky");
 describeCountry("Slovakia", 5500000, "Bratislava");
 describeCountry("Usa", 300000000, "Washington");
+ */
+
+//<--------------------LECTURE: Function Declarations vs. Expressions---------------------- >//
+
+function percentageOfWorld1(population) {
+  return (population / 790000000) * 100;
+}
+//Declaration
+const country1 = percentageOfWorld1(140000000);
+console.log(country1);
+
+//Expression
+const percentageOfWorld2 = function (population) {
+  return (population / 790000000) * 100;
+};
+
+console.log(percentageOfWorld2(100000));
