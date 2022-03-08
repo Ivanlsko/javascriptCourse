@@ -117,7 +117,7 @@ describeCountry("Usa", 300000000, "Washington");
 
 //<--------------------LECTURE: Function Declarations vs. Expressions---------------------- >//
 
-function percentageOfWorld1(population) {
+/* function percentageOfWorld1(population) {
   return (population / 790000000) * 100;
 }
 //Declaration
@@ -130,3 +130,9 @@ const percentageOfWorld2 = function (population) {
 };
 
 console.log(percentageOfWorld2(100000));
+ */
+
+//<--------------------LECTURE: Arrow Functions---------------------- >//
+
+/* const percentageOfWorld3 = (population) => (population / 790000000) * 100;
+console.log(percentageOfWorld3(24000000)); */
