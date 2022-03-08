@@ -145,3 +145,16 @@ console.log(percentageOfWorld3(24000000)); */
 
 const percentageOfWorld3 = (population) => (population / 790000000) * 100;
 descibePopulation("USA", 30000000); */
+
+//<--------------------LECTURE: Introduction to Arrays---------------------- >//
+
+const populations = [440000, 34000000, 1234567, 100000000];
+
+if (populations.length >= 3) console.log("Array has 4 elements");
+
+const percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]), percentageOfWorld1(populations[2]), percentageOfWorld1(populations[3])];
+console.log(percentages);
+
+function percentageOfWorld1(population) {
+  return (population / 790000000) * 100;
+}
