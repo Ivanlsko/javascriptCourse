@@ -1,3 +1,4 @@
+"use strict";
 //<------------------------------ Coding Challenge #1 ------------------------------ >//
 
 /* const marksMass = 78;
@@ -51,4 +52,27 @@ const tip = bill >= 50 && bill <= 300 ? "15" : "20";
 
 console.log(`Your bill is ${bill}€, therefore, you should tip ${tip}%`);
 console.log(`To sum it up, you end up paying ${bill + (bill / 100) * tip}€`);
+ */
+
+//<------------------------------ Coding Challenge #5 ------------------------------ >//
+
+/* const chceckWinner = function () {
+  const avgDolphins = calcAverage(44, 23, 71);
+  console.log(avgDolphins);
+  const avgKoals = calcAverage(65, 54, 49);
+  console.log(avgKoals);
+
+  if (avgDolphins >= 2 * avgKoals) {
+    console.log("Dolphins are winner");
+  } else if (avgKoals >= 2 * avgDolphins) {
+    console.log("Koalas are winner");
+  } else {
+    console.log("No one is winner here");
+  }
+};
+
+const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
+console.log(calcAverage(1, 2, 3));
+
+chceckWinner();
  */
