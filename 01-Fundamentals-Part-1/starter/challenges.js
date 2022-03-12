@@ -79,12 +79,16 @@ chceckWinner();
 
 //<------------------------------ Coding Challenge #6 ------------------------------ >//
 
-/* function calculateTip(bill) {
-  if (bill <= 50 || bill >= 300) {
+/*function calculateTip(bill) {
+  if (bill <= 50 && bill >= 300) {
     return (bill / 100) * 20;
   } else {
     return (bill / 100) * 20;
   }
+}*/
+
+/* function calculateTip(bill) {
+  return bill <= 50 && bill >= 300 ? (bill / 100) * 20 : (bill / 100) * 15;
 }
 
 const bills = [125, 555, 44];
