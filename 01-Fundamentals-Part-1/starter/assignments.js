@@ -1,3 +1,5 @@
+"use strict";
+
 /* 1. Declarevariablescalled'country','continent'and'population'and assign their values according to your own country (population in millions)
 2. Logtheirvaluestotheconsole */
 
@@ -189,3 +191,21 @@ console.log(neighboursOfSlovakia); */
 };
 
 console.log(myCountry); */
+
+//<--------------------LECTURE: Dot vs. Bracket Notation---------------------- >//
+
+/* const myCountry = {
+  country: "Slovakia",
+  language: "slovak",
+  population: 5500000,
+  capital: "Bratislava",
+  neighbours: ["Ukraine", "Hungary", "Poland", "Czech Republic", "Austria"],
+};
+
+console.log(`${myCountry.country} has ${myCountry.population} ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}`);
+
+myCountry.population += 2000000;
+console.log(myCountry["population"]);
+
+myCountry["population"] -= 2000000;
+console.log(myCountry["population"]); */
