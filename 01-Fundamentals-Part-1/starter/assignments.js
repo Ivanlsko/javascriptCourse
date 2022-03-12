@@ -177,3 +177,15 @@ if (neighboursOfSlovakia.includes("Germany") === true) {
 const position = neighboursOfSlovakia.indexOf("Czech Republic");
 neighboursOfSlovakia[position] = "Czechia";
 console.log(neighboursOfSlovakia); */
+
+//<--------------------LECTURE: Introduction to Objects---------------------- >//
+
+/* const myCountry = {
+  country: "Slovakia",
+  language: "Slovak",
+  population: 5500000,
+  capital: "Bratislava",
+  neighbours: ["Ukraine", "Hungary", "Poland", "Czech Republic", "Austria"],
+};
+
+console.log(myCountry); */
