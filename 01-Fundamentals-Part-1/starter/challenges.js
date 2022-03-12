@@ -76,3 +76,21 @@ console.log(calcAverage(1, 2, 3));
 
 chceckWinner();
  */
+
+//<------------------------------ Coding Challenge #6 ------------------------------ >//
+
+/* function calculateTip(bill) {
+  if (bill <= 50 || bill >= 300) {
+    return (bill / 100) * 20;
+  } else {
+    return (bill / 100) * 20;
+  }
+}
+
+const bills = [125, 555, 44];
+
+const tips = [calculateTip(bills[0]), calculateTip(bills[1]), calculateTip(bills[2])];
+
+const billsWithTips = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+
+console.log(`${billsWithTips[0]}€, ${billsWithTips[1]}€, ${billsWithTips[2]}€`); */
