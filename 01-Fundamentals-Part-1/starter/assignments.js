@@ -258,3 +258,13 @@ for (let i = 0; i <= populations.length; i++) {
 }
 console.log(percentageOfWorld);
  */
+
+//<--------------------LECTURE: Looping Arrays, Breaking and Continuing---------------------- >//
+
+/* const listOfNeighbours = [["Canada", "Mexico"], ["Spain"], ["Norway", "Sweden", "Russia"]];
+
+for (let i = 0; i < listOfNeighbours.length; i++) {
+  for (let a = 0; a < listOfNeighbours[i].length; a++) {
+    console.log(`Neighbour: ${listOfNeighbours[i][a]}`);
+  }
+} */
