@@ -248,3 +248,13 @@ console.log(myCountry["population"]); */
 /* for (let num = 1; num <= 50; num++) {
   console.log(`Voter number ${num} is currently voting`);
 } */
+
+//<--------------------LECTURE: Looping Arrays, Breaking and Continuing---------------------- >//
+
+/* const populations = [440000, 34000000, 1234567, 100000000];
+const percentageOfWorld = [];
+for (let i = 0; i <= populations.length; i++) {
+  percentageOfWorld.push((populations[i] / 790000000) * 100);
+}
+console.log(percentageOfWorld);
+ */
