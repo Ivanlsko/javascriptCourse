@@ -209,3 +209,36 @@ console.log(myCountry["population"]);
 
 myCountry["population"] -= 2000000;
 console.log(myCountry["population"]); */
+
+//<--------------------LECTURE: Object Methods---------------------- >//
+
+/* const myCountry = {
+  country: "Slovakia",
+  language: "slovak",
+  population: 5500000,
+  capital: "Bratislava",
+  neighbours: ["Ukraine", "Hungary", "Poland", "Czech Republic", "Austria"],
+  describe: function () {
+    console.log(`${this.country} has ${this.population} ${this.language}-speaking people, ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}`);
+  },
+  checkIfIsland: function (neighbours) {
+    this.isIsland = neighbours.length >= 0 ? "Isn't an Island" : "Is an Island";
+    return this.isIsland;
+  },
+}; */
+
+/* const myCountry = {
+  country: "Slovakia",
+  language: "slovak",
+  population: 5500000,
+  capital: "Bratislava",
+  neighbours: ["Ukraine", "Hungary", "Poland", "Czech Republic", "Austria"],
+  describe: function () {
+    console.log(`${this.country} has ${this.population} ${this.language}-speaking people, ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}`);
+  },
+  checkIfIsland: function () {
+    this.isIsland = this.neighbours.length >= 0 ? "Isn't an Island" : "Is an Island";
+    return this.isIsland;
+  },
+};
+ */
