@@ -98,3 +98,32 @@ const tips = [calculateTip(bills[0]), calculateTip(bills[1]), calculateTip(bills
 const billsWithTips = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 console.log(`${billsWithTips[0]}€, ${billsWithTips[1]}€, ${billsWithTips[2]}€`); */
+
+//<------------------------------ Coding Challenge #7 ------------------------------ >//
+
+/* const mark = {
+  fullName: "Mark Miller",
+  weight: 78,
+  height: 1.69,
+  calcBMI: function () {
+    this.BMI = this.weight / this.height ** 2;
+    return this.BMI;
+  },
+};
+
+const john = {
+  fullName: "John Smith",
+  weight: 92,
+  height: 1.95,
+  calcBMI: function () {
+    this.BMI = this.weight / this.height ** 2;
+    return this.BMI;
+  },
+};
+
+function compareBMIs() {
+  return mark.calcBMI() > john.calcBMI() ? "higher" : "lower";
+}
+
+console.log(`${mark.fullName}'s BMI (${mark.calcBMI()}) is ${compareBMIs()} than ${john.fullName}'s (${john.calcBMI()})!`);
+ */
