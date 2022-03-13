@@ -242,3 +242,9 @@ console.log(myCountry["population"]); */
   },
 };
  */
+
+//<--------------------LECTURE: Iteration: The for Loop---------------------- >//
+
+/* for (let num = 1; num <= 50; num++) {
+  console.log(`Voter number ${num} is currently voting`);
+} */
