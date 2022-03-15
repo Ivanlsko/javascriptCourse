@@ -259,7 +259,7 @@ for (let i = 0; i <= populations.length; i++) {
 console.log(percentageOfWorld);
  */
 
-//<--------------------LECTURE: Looping Arrays, Breaking and Continuing---------------------- >//
+//<--------------------LECTURE: Looping Backwards and Loops in Loops---------------------- >//
 
 /* const listOfNeighbours = [["Canada", "Mexico"], ["Spain"], ["Norway", "Sweden", "Russia"]];
 
@@ -268,3 +268,16 @@ for (let i = 0; i < listOfNeighbours.length; i++) {
     console.log(`Neighbour: ${listOfNeighbours[i][a]}`);
   }
 } */
+
+//<--------------------LECTURE: The while Loop---------------------- >//
+
+/* const populations = [440000, 34000000, 1234567, 100000000];
+const percentageOfWorld = [];
+
+let popul = percentageOfWorld.length;
+while (popul < populations.length) {
+  percentageOfWorld.push((populations[popul] / 790000000) * 100);
+  popul = percentageOfWorld.length;
+}
+console.log(percentageOfWorld);
+ */
