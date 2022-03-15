@@ -127,3 +127,27 @@ function compareBMIs() {
 
 console.log(`${mark.fullName}'s BMI (${mark.calcBMI()}) is ${compareBMIs()} than ${john.fullName}'s (${john.calcBMI()})!`);
  */
+
+//<------------------------------ Coding Challenge #8 ------------------------------ >//
+
+/* const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+const totals = [];
+
+for (let i = 0; i < bills.length; i++) {
+  tips.push(bills[i] <= 50 && bills[i] >= 300 ? (bills[i] / 100) * 20 : (bills[i] / 100) * 15);
+  totals.push(bills[i] + tips[i]);
+}
+
+console.log(totals);
+
+function calcAverage(arr) {
+  let sum = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum / arr.length;
+}
+
+console.log(calcAverage(totals)); */
