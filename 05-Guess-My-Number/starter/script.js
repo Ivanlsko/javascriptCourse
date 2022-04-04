@@ -37,18 +37,20 @@ function getInputValue() {
 function compareNumbers(correct, tip) {
   if (correct === tip) {
     win();
+  } else if (tip < 1 || tip > 20) {
+    messageFunction('The guessed number is between 1-20');
   } else if (correct > tip) {
     lose();
-    tipLower();
+    messageFunction('The guessed number is higher');
   } else if (correct < tip) {
     lose();
-    tipHigher();
+    messageFunction('The guessed number is lower');
   }
 }
 
 function win() {
   body.style.backgroundColor = '#60b347';
-  message.textContent = 'You guessed the right number✔️';
+  messageFunction('You guessed the right number✔️');
   headline.textContent = 'You won🔥';
   number.textContent = guessedNum;
   defaultScore > currentHS ? editHS() : 'You didnt reach new high score';
@@ -60,12 +62,8 @@ function lose() {
   score.textContent = defaultScore;
 }
 
-function tipLower() {
-  message.textContent = 'The guessed number is higher';
-}
-
-function tipHigher() {
-  message.textContent = 'The guessed number is lower';
+function messageFunction(content) {
+  message.textContent = content;
 }
 
 function editHS() {
@@ -78,7 +76,7 @@ again.addEventListener('click', againFunction);
 function againFunction() {
   guessedNum = Math.floor(Math.random() * 20 + 1);
   defaultScore = 20;
-  message.textContent = 'Start guessing...';
+  messageFunction('Start guessing...');
   score.textContent = defaultScore;
   headline.textContent = 'Guess My Number!';
   body.style.backgroundColor = '#222';
